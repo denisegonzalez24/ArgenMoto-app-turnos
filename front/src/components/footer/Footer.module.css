@@ -1,0 +1,78 @@
+/* Footer.module.css */
+.footerContainer {
+  background-color: #ece8e8; /* Fondo claro */
+  color: rgb(248, 9, 9); /* Texto rojo */
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin-top: 20px; /* Espacio superior */
+}
+
+.footerContent {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.copyRight {
+  color: black;
+  font-size: 0.9em;
+}
+
+.contact {
+  color: black;
+  font-size: 0.9em;
+  margin-top: 0.5em;
+}
+
+.contactLink {
+  color: black;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+  color: #ffd700;
+}
+
+
+
+
+
+/*.footerContainer {
+    position: fixed; 
+    bottom: 0; 
+    left: 0; 
+    width: 100%; 
+    background-color: aquamarine;
+    color: black;
+    padding: 1em 2em;
+    text-align: center;
+}
+
+.footerContent {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.copyRight {
+    color: black;
+    font-size: 0.9em;
+}
+
+.contact {
+    color: black;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+.contactLink {
+    color: black;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contactLink:hover {
+    color: #ffd700;
+}
+*/

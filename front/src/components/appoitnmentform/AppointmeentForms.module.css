@@ -1,0 +1,51 @@
+/*sacar turno*/
+
+.formContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 20px; /* Añadido margen superior */
+  }
+  
+  .formContainer h2 {
+    margin-bottom: 10px;
+  }
+  
+  .formContainer label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .formContainer input[type="date"],
+  .formContainer select {
+    width: calc(50% - 5px);
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .formContainer select {
+    margin-left: 10px;
+  }
+  
+  .formContainer button[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .formContainer button[type="submit"]:hover {
+    background-color: #0056b3;
+  }
+  
+  .error {
+    color: red;
+  }
+  

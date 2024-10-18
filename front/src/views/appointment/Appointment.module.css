@@ -1,0 +1,66 @@
+.appointmentContainer {
+  padding: 20px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #333333; /* Fondo oscuro */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Añadimos sombra para profundidad */
+}
+
+.title {
+  font-size: 2em;
+  color: #ffffff; /* Texto blanco */
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px black; /* Sombra para hacer que el título resalte */
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column; /* Tarjetas una debajo de la otra */
+  align-items: center; /* Centrar tarjetas horizontalmente */
+  gap: 20px; /* Espacio entre tarjetas */
+}
+
+.card {
+  background-color: #e9e3e3; /* Fondo oscuro para cada tarjeta */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  width: 100%;
+  max-width: 400px; /* Ancho máximo para que las tarjetas no se estiren demasiado */
+  color: #ffffff; /* Texto blanco para buen contraste */
+  text-align: left;
+}
+
+.card .cardTitle {
+  font-size: 1.5em;
+  color: #e30613; /* Rojo Honda para destacar el título de la tarjeta */
+  margin-bottom: 10px;
+}
+
+.card .cardContent {
+  font-size: 1.1em;
+  color: #e0e0e0; /* Gris claro para el contenido de la tarjeta */
+}
+
+
+
+
+/*.appointmentContainer {
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center; 
+  }
+  
+  .title {
+    font-size: 2em;
+    color: #0077b6;
+    margin-bottom: 20px;
+  }
+  
+  .cardContainer {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+  }
+  */

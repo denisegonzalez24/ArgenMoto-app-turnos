@@ -1,0 +1,106 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Texto blanco */
+    padding: 5px 15px; /* Reduce el padding para hacer la navbar más delgada */
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+/* Sección del logo */
+.logoSection img,
+img {
+    width: 45px; /* Ajuste de ancho del logo para hacerlo más compacto */
+    height: auto; /* Mantiene la proporción */
+}
+
+/* Sección del usuario */
+.usuarioSection {
+    display: grid;
+    place-items: center;
+}
+
+.usuarioSection img {
+    width: 45px; /* Ajuste de tamaño del icono de usuario */
+    height: auto;
+    padding: 0;
+}
+
+/* Sección de enlaces de navegación */
+.linkSection {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 0 0 0; /* Reduce el padding para hacer la sección más delgada */
+    gap: 1.5em;
+    font-size: 1.2em; /* Corrige la coma en lugar del punto */
+    color: #ffffff; /* Texto blanco */
+    text-shadow: 2px 2px 4px black;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    color: rgb(221, 189, 44);
+}
+
+
+
+
+
+/* .navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    color: aliceblue;
+    padding-bottom: 1em;
+    align-items: center;
+    
+}
+.logoSection img,
+img {
+    width: 50px; 
+    height: auto; 
+.usuarioSection{
+    display: grid;
+    place-items: center;
+    img{
+        width: 50px;
+        padding: auto;
+    }
+}
+.linkSection{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding: 20px 0 0 0 ;
+    gap: 1.5em;
+    font-size: 1,2em;
+    color:aqua;
+    text-shadow: 2px 2px 4px black;
+    span:hover{
+        color: aliceblue;
+        cursor: pointer;
+    }
+
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+a:hover{
+    text-decoration: none;
+    cursor: pointer;
+color: white;
+} */

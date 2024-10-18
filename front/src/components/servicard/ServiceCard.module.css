@@ -1,0 +1,58 @@
+/* carta de  servicios descripciones de pag principal*/
+/* Contenedor de tarjeta */
+.cardContainer {
+  padding: 20px;
+  margin: 10px 0;
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 0px; /* Sin bordes redondeados */
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.15); /* Sombra suave para un efecto moderno */
+  /* Eliminamos la transición de hover */
+}
+
+.content {
+  padding: 20px;
+}
+
+.title {
+  font-size: 2em; /* Tamaño del título */
+  color: #0077b6;; /* Rojo para el título */
+  margin-bottom: 15px; /* Espacio debajo del título */
+  font-weight: 700; /* Negrita */
+  text-transform: uppercase; /* Mayúsculas para un toque moderno */
+  letter-spacing: 1px; /* Espaciado entre letras */
+  text-align: center; /* Centrado del título */
+  font-family: 'Roboto', sans-serif; /* Tipografía moderna */
+}
+
+.servicesList {
+  list-style-type: none;
+  padding: 0;
+}
+
+.servicesList li {
+  font-size: 1.1em;
+  color: #333333; /* Texto gris oscuro */
+  margin-bottom: 15px; /* Espacio entre ítems */
+  line-height: 1.8; /* Mejor altura de línea para legibilidad */
+  position: relative;
+  padding-left: 30px; /* Espacio para los íconos */
+  font-family: 'Roboto', sans-serif; /* Tipografía moderna */
+}
+
+.servicesList li:before {
+  content: "✔"; /* Icono de check */
+  position: absolute;
+  left: 5px;
+  top: 0;
+  font-size: 1.5em;
+  color: #0077b6;; /* Rojo para el check */
+}
+
+.servicesList li strong {
+  color: #333333; /* Negro para resaltar los elementos importantes */
+  font-weight: 600; /* Negrita */
+}
+
+
+
+

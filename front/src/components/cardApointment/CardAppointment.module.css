@@ -1,0 +1,68 @@
+/* components/cardApointment/CardAppointment.module.css 
+.container {
+    background-color: aquamarine;
+    color: rgba(18, 76, 202, 0.425);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+  }
+  
+  .container span {
+    flex: 0 0 25%;
+  }
+  
+  .active {
+    color: green;
+    cursor: pointer;
+  }
+  
+  .active:hover {
+    color: aliceblue;
+    background-color: orangered;
+  }
+  
+  .cancelled {
+    color: red;
+  }
+  */
+
+  .container {
+    background-color: #f9f9f9; /* Blanco suave */
+    color: #333; /* Negro grisáceo para el texto */
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+    padding: 15px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra ligera */
+    transition: background-color 0.3s ease;
+  }
+  
+  .container span {
+    flex: 0 0 25%;
+  }
+  
+  .active {
+    color: #000; /* Negro */
+    cursor: pointer;
+    transition: color 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .active:hover {
+    color: #fff; /* Blanco */
+    background-color: #333; /* Negro más oscuro */
+    border-radius: 4px;
+    padding: 5px;
+  }
+  
+  .cancelled {
+    color: #ff4d4d; /* Rojo suave */
+  }
+  
+  
